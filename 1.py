@@ -12,3 +12,6 @@ class Car:
  
     def stop(self):
         print ("Отключаем двигатель")
+car_b = Car()
+car_b.start()
+print(car_b.model)
