@@ -1,7 +1,7 @@
-class Square:
- 
-    @staticmethod
-    def get_squares(a, b):
-        return a*a, b*b
- 
-print(Square.get_squares(3, 5))
+class Car:
+    def __str__(self):
+        return "Car class Object"
+
+
+car_a = Car()
+print(car_a)  # Выведет: Car class Object
